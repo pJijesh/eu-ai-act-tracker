@@ -1,0 +1,105 @@
+{
+  "note": "A plain-language index of the main obligations, by role. It points to the articles; it does not replace them. Check the consolidated text before relying on any line.",
+  "tiers": [
+    {
+      "id": "prohibited",
+      "title": "Prohibited practices (Article 5)",
+      "max_fine": "EUR 35 million or 7% of worldwide annual turnover, whichever is higher",
+      "articles": ["5", "99"]
+    },
+    {
+      "id": "operator-obligations",
+      "title": "Most other obligations on providers, deployers and others",
+      "max_fine": "EUR 15 million or 3% of worldwide annual turnover, whichever is higher",
+      "articles": ["99"]
+    },
+    {
+      "id": "incorrect-information",
+      "title": "Supplying incorrect, incomplete or misleading information to authorities",
+      "max_fine": "EUR 7.5 million or 1% of worldwide annual turnover, whichever is higher",
+      "articles": ["99"]
+    }
+  ],
+  "obligations": [
+    {
+      "id": "literacy",
+      "role": "all",
+      "title": "Support AI literacy",
+      "articles": ["4"],
+      "summary": "Take measures that support AI literacy among staff and others who operate or use AI systems on your behalf.",
+      "from": "prohibitions-and-literacy"
+    },
+    {
+      "id": "no-prohibited",
+      "role": "all",
+      "title": "Do not place on the market or use prohibited AI practices",
+      "articles": ["5"],
+      "summary": "Stay clear of the Article 5 list, which includes manipulative techniques, social scoring and certain biometric uses. New prohibitions apply from 2 December 2026.",
+      "from": "prohibitions-and-literacy"
+    },
+    {
+      "id": "transparency",
+      "role": "all",
+      "title": "Meet the transparency duties",
+      "articles": ["50"],
+      "summary": "Tell people when they are interacting with an AI system, mark synthetic content, and disclose deepfakes and certain emotion recognition or biometric categorisation.",
+      "from": "general-application"
+    },
+    {
+      "id": "provider-high-risk",
+      "role": "provider",
+      "title": "Build and document high-risk systems",
+      "articles": ["9", "10", "11", "12", "13", "14", "15", "16", "17"],
+      "summary": "Run a risk management system, govern data, keep technical documentation and logs, provide instructions, design for human oversight, accuracy and robustness, and operate a quality management system.",
+      "from": "annex-iii"
+    },
+    {
+      "id": "provider-conformity",
+      "role": "provider",
+      "title": "Complete conformity assessment, declaration and registration",
+      "articles": ["43", "47", "48", "49"],
+      "summary": "Carry out the conformity assessment, draw up the EU declaration of conformity, affix the CE marking and register the system.",
+      "from": "annex-iii"
+    },
+    {
+      "id": "provider-monitoring",
+      "role": "provider",
+      "title": "Monitor after market placement and report serious incidents",
+      "articles": ["72", "73"],
+      "summary": "Keep a post-market monitoring system and report serious incidents to the market surveillance authority.",
+      "from": "annex-iii"
+    },
+    {
+      "id": "deployer-high-risk",
+      "role": "deployer",
+      "title": "Use high-risk systems as instructed, with oversight",
+      "articles": ["26"],
+      "summary": "Follow the instructions for use, assign competent human oversight, keep the logs you control, monitor operation and inform affected workers and people where required.",
+      "from": "annex-iii"
+    },
+    {
+      "id": "deployer-fria",
+      "role": "deployer",
+      "title": "Assess fundamental rights impact where Article 27 applies",
+      "articles": ["27"],
+      "summary": "Public bodies, providers of public services and deployers of certain credit and insurance systems carry out a fundamental rights impact assessment before first use.",
+      "from": "annex-iii"
+    },
+    {
+      "id": "gpai-core",
+      "role": "gpai_provider",
+      "title": "Document the model and respect copyright",
+      "articles": ["53"],
+      "summary": "Keep technical documentation, give downstream providers the information they need, adopt a copyright compliance policy and publish a training content summary.",
+      "from": "gpai-and-governance"
+    },
+    {
+      "id": "gpai-systemic",
+      "role": "gpai_provider",
+      "title": "Manage systemic risk for the most capable models",
+      "articles": ["55"],
+      "summary": "Models with systemic risk add model evaluation, adversarial testing, risk mitigation, serious incident reporting and cybersecurity protection.",
+      "from": "gpai-and-governance"
+    }
+  ]
+}

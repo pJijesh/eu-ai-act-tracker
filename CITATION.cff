@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it using the metadata below."
+title: "eu-ai-act-tracker"
+abstract: "Sourced EU AI Act timeline as data: every date with articles and links, obligations by role, a calendar file and a small CLI. Reflects the Digital Omnibus. No dependencies."
+type: software
+authors:
+  - family-names: "Puliyappottammal"
+    given-names: "Jijesh"
+repository-code: "https://github.com/pJijesh/eu-ai-act-tracker"
+url: "https://github.com/pJijesh/eu-ai-act-tracker"
+license: MIT
+version: 1.0.0
+date-released: "2026-11-11"
+keywords:
+  - ai-governance
+  - compliance
+  - eu-ai-act
+  - timeline
+  - python
+  - regulation

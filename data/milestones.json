@@ -1,0 +1,270 @@
+{
+  "as_of": "2026-11-11",
+  "sources": {
+    "eurlex-2024-1689": {
+      "title": "Regulation (EU) 2024/1689 (the AI Act), EUR-Lex",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    },
+    "eurlex-2026-1744": {
+      "title": "Regulation (EU) 2026/1744 (Digital Omnibus on AI), EUR-Lex",
+      "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
+    },
+    "explorer-art-113": {
+      "title": "Article 113, entry into force and application, consolidated text in the AI Act Explorer",
+      "url": "https://artificialintelligenceact.eu/article/113/"
+    },
+    "explorer-art-111": {
+      "title": "Article 111, AI systems and models already placed on the market, consolidated text in the AI Act Explorer",
+      "url": "https://artificialintelligenceact.eu/article/111/"
+    },
+    "explorer-omnibus": {
+      "title": "Digital Omnibus amendments in the AI Act Explorer",
+      "url": "https://artificialintelligenceact.eu/ai-act-explorer/digital-omnibus/"
+    }
+  },
+  "milestones": [
+    {
+      "id": "entry-into-force",
+      "date": "2024-08-01",
+      "title": "The AI Act enters into force",
+      "summary": "Regulation (EU) 2024/1689 enters into force. Nothing is yet enforceable; the dates below start the clock on each group of rules.",
+      "articles": [
+        "113"
+      ],
+      "applies_to": [
+        "provider",
+        "deployer",
+        "gpai_provider"
+      ],
+      "omnibus": "unchanged",
+      "sources": [
+        "eurlex-2024-1689"
+      ]
+    },
+    {
+      "id": "prohibitions-and-literacy",
+      "date": "2025-02-02",
+      "title": "Prohibited practices and AI literacy apply",
+      "summary": "Chapters I and II apply: the Article 5 prohibitions and the Article 4 AI literacy duty. Article 4 has since been amended; the consolidated text frames the provider and deployer duty as taking measures that support AI literacy, with no required level for any individual.",
+      "articles": [
+        "4",
+        "5"
+      ],
+      "applies_to": [
+        "provider",
+        "deployer"
+      ],
+      "omnibus": "amended",
+      "sources": [
+        "explorer-art-113",
+        "explorer-omnibus"
+      ]
+    },
+    {
+      "id": "gpai-and-governance",
+      "date": "2025-08-02",
+      "title": "General-purpose AI obligations, governance and penalties apply",
+      "summary": "Chapter V (general-purpose AI models), Chapter VII (governance), Chapter XII (penalties), notified body rules in Chapter III Section 4 and Article 78 apply, except Article 101.",
+      "articles": [
+        "51",
+        "52",
+        "53",
+        "54",
+        "55",
+        "56",
+        "78",
+        "99"
+      ],
+      "applies_to": [
+        "gpai_provider",
+        "member_state"
+      ],
+      "omnibus": "unchanged",
+      "sources": [
+        "explorer-art-113"
+      ]
+    },
+    {
+      "id": "omnibus-in-force",
+      "date": "2026-07-27",
+      "title": "The Digital Omnibus on AI enters into force",
+      "summary": "Regulation (EU) 2026/1744 amends the AI Act, signed on 8 July 2026. It moves the high-risk dates and adds the new Article 5 prohibitions.",
+      "articles": [
+        "113"
+      ],
+      "applies_to": [
+        "provider",
+        "deployer",
+        "gpai_provider"
+      ],
+      "omnibus": "new",
+      "sources": [
+        "eurlex-2026-1744"
+      ]
+    },
+    {
+      "id": "general-application",
+      "date": "2026-08-02",
+      "title": "General application date: transparency duties and Commission enforcement over general-purpose AI",
+      "summary": "The general application date in Article 113 arrives. Article 50 transparency duties apply, subject to the Article 50(2) transition below. Article 101, the fines for providers of general-purpose AI models, applies from this date because it was excluded from 2 August 2025.",
+      "articles": [
+        "50",
+        "101"
+      ],
+      "applies_to": [
+        "provider",
+        "deployer",
+        "gpai_provider"
+      ],
+      "omnibus": "unchanged",
+      "sources": [
+        "explorer-art-113",
+        "explorer-art-111"
+      ]
+    },
+    {
+      "id": "art-50-2-legacy",
+      "date": "2026-12-02",
+      "title": "Deadline for Article 50(2) marking on systems already on the market",
+      "summary": "Providers of generative systems placed on the market before 2 August 2026 must comply with the Article 50(2) duty to mark synthetic output by this date. Systems placed on the market on or after 2 August 2026 get no grace period.",
+      "articles": [
+        "50",
+        "111"
+      ],
+      "applies_to": [
+        "provider"
+      ],
+      "omnibus": "new",
+      "sources": [
+        "explorer-art-111",
+        "explorer-omnibus"
+      ]
+    },
+    {
+      "id": "new-prohibitions",
+      "date": "2026-12-02",
+      "title": "New Article 5 prohibitions apply",
+      "summary": "The new prohibitions added by the Omnibus, covering AI systems that generate non-consensual intimate imagery and child sexual abuse material, apply from this date.",
+      "articles": [
+        "5"
+      ],
+      "applies_to": [
+        "provider",
+        "deployer"
+      ],
+      "omnibus": "new",
+      "sources": [
+        "explorer-art-113",
+        "explorer-omnibus"
+      ]
+    },
+    {
+      "id": "gpai-legacy",
+      "date": "2027-08-02",
+      "title": "General-purpose AI models placed on the market before 2 August 2025 must comply",
+      "summary": "Providers of general-purpose AI models that were on the market before 2 August 2025 must take the necessary steps to comply by this date.",
+      "articles": [
+        "53",
+        "55",
+        "111"
+      ],
+      "applies_to": [
+        "gpai_provider"
+      ],
+      "omnibus": "unchanged",
+      "sources": [
+        "explorer-art-111"
+      ]
+    },
+    {
+      "id": "annex-iii",
+      "date": "2027-12-02",
+      "title": "High-risk obligations apply to Annex III use cases",
+      "summary": "Chapter III Sections 1 to 3 apply to AI systems classified as high-risk under Article 6(2) and Annex III, such as employment, education, credit scoring and essential services. Moved by the Omnibus from 2 August 2026.",
+      "articles": [
+        "6",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "26",
+        "27"
+      ],
+      "applies_to": [
+        "provider",
+        "deployer"
+      ],
+      "omnibus": "moved",
+      "sources": [
+        "explorer-art-113",
+        "eurlex-2026-1744"
+      ]
+    },
+    {
+      "id": "annex-i",
+      "date": "2028-08-02",
+      "title": "High-risk obligations apply to AI in Annex I regulated products",
+      "summary": "Chapter III Sections 1 to 3 apply to AI systems classified as high-risk under Article 6(1) and Annex I, such as safety components of regulated products. Moved by the Omnibus from 2 August 2027.",
+      "articles": [
+        "6",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17"
+      ],
+      "applies_to": [
+        "provider",
+        "deployer"
+      ],
+      "omnibus": "moved",
+      "sources": [
+        "explorer-art-113",
+        "eurlex-2026-1744"
+      ]
+    },
+    {
+      "id": "public-authority-legacy",
+      "date": "2030-08-02",
+      "title": "High-risk systems for public authorities already on the market must comply",
+      "summary": "High-risk AI systems intended to be used by public authorities and placed on the market before the high-risk rules apply must be brought into compliance by this date.",
+      "articles": [
+        "111"
+      ],
+      "applies_to": [
+        "provider",
+        "deployer"
+      ],
+      "omnibus": "unchanged",
+      "sources": [
+        "explorer-art-111"
+      ]
+    },
+    {
+      "id": "large-scale-it-legacy",
+      "date": "2030-12-31",
+      "title": "AI components of large-scale IT systems must comply",
+      "summary": "AI systems that are components of the large-scale IT systems listed in Annex X, placed on the market or put into service before 2 August 2027, must be brought into compliance by this date.",
+      "articles": [
+        "111"
+      ],
+      "applies_to": [
+        "provider",
+        "deployer"
+      ],
+      "omnibus": "unchanged",
+      "sources": [
+        "explorer-art-111"
+      ]
+    }
+  ]
+}

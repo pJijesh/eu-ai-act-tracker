@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "eu-ai-act-tracker"
+dynamic = ["version"]
+description = "A sourced, machine-readable timeline of EU AI Act application dates and obligations by role, with a calendar file and a small command line tool."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Puliyappottammal Jijesh" }]
+keywords = ["eu-ai-act", "ai-governance", "compliance", "timeline", "calendar"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[project.urls]
+Homepage = "https://github.com/pJijesh/eu-ai-act-tracker"
+
+[project.scripts]
+aiact = "aiact_tracker.cli:main"
+
+[tool.setuptools.dynamic]
+version = { attr = "aiact_tracker.__version__" }
+
+[tool.setuptools.packages.find]
+include = ["aiact_tracker*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

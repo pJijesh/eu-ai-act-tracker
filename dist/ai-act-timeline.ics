@@ -1,0 +1,157 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eu-ai-act-tracker//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:EU AI Act milestones
+BEGIN:VEVENT
+UID:entry-into-force@eu-ai-act-tracker
+DTSTAMP:20261111T000000Z
+DTSTART;VALUE=DATE:20240801
+DTEND;VALUE=DATE:20240802
+SUMMARY:The AI Act enters into force
+DESCRIPTION:Regulation (EU) 2024/1689 enters into force. Nothing is yet enf
+ orceable\; the dates below start the clock on each group of rules. Article
+ s: 113. Source: https://eur-lex.europa.eu/eli/reg/2024/1689/oj
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:prohibitions-and-literacy@eu-ai-act-tracker
+DTSTAMP:20261111T000000Z
+DTSTART;VALUE=DATE:20250202
+DTEND;VALUE=DATE:20250203
+SUMMARY:Prohibited practices and AI literacy apply
+DESCRIPTION:Chapters I and II apply: the Article 5 prohibitions and the Art
+ icle 4 AI literacy duty. Article 4 has since been amended\; the consolidat
+ ed text frames the provider and deployer duty as taking measures that supp
+ ort AI literacy\, with no required level for any individual. Articles: 4\,
+  5. Source: https://artificialintelligenceact.eu/article/113/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gpai-and-governance@eu-ai-act-tracker
+DTSTAMP:20261111T000000Z
+DTSTART;VALUE=DATE:20250802
+DTEND;VALUE=DATE:20250803
+SUMMARY:General-purpose AI obligations\, governance and penalties apply
+DESCRIPTION:Chapter V (general-purpose AI models)\, Chapter VII (governance
+ )\, Chapter XII (penalties)\, notified body rules in Chapter III Section 4
+  and Article 78 apply\, except Article 101. Articles: 51\, 52\, 53\, 54\, 
+ 55\, 56\, 78\, 99. Source: https://artificialintelligenceact.eu/article/11
+ 3/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:omnibus-in-force@eu-ai-act-tracker
+DTSTAMP:20261111T000000Z
+DTSTART;VALUE=DATE:20260727
+DTEND;VALUE=DATE:20260728
+SUMMARY:The Digital Omnibus on AI enters into force
+DESCRIPTION:Regulation (EU) 2026/1744 amends the AI Act\, signed on 8 July 
+ 2026. It moves the high-risk dates and adds the new Article 5 prohibitions
+ . Articles: 113. Source: https://eur-lex.europa.eu/eli/reg/2026/1744/oj
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:general-application@eu-ai-act-tracker
+DTSTAMP:20261111T000000Z
+DTSTART;VALUE=DATE:20260802
+DTEND;VALUE=DATE:20260803
+SUMMARY:General application date: transparency duties and Commission enforc
+ ement over general-purpose AI
+DESCRIPTION:The general application date in Article 113 arrives. Article 50
+  transparency duties apply\, subject to the Article 50(2) transition below
+ . Article 101\, the fines for providers of general-purpose AI models\, app
+ lies from this date because it was excluded from 2 August 2025. Articles: 
+ 50\, 101. Source: https://artificialintelligenceact.eu/article/113/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:art-50-2-legacy@eu-ai-act-tracker
+DTSTAMP:20261111T000000Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:Deadline for Article 50(2) marking on systems already on the market
+DESCRIPTION:Providers of generative systems placed on the market before 2 A
+ ugust 2026 must comply with the Article 50(2) duty to mark synthetic outpu
+ t by this date. Systems placed on the market on or after 2 August 2026 get
+  no grace period. Articles: 50\, 111. Source: https://artificialintelligen
+ ceact.eu/article/111/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:new-prohibitions@eu-ai-act-tracker
+DTSTAMP:20261111T000000Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:New Article 5 prohibitions apply
+DESCRIPTION:The new prohibitions added by the Omnibus\, covering AI systems
+  that generate non-consensual intimate imagery and child sexual abuse mate
+ rial\, apply from this date. Articles: 5. Source: https://artificialintell
+ igenceact.eu/article/113/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gpai-legacy@eu-ai-act-tracker
+DTSTAMP:20261111T000000Z
+DTSTART;VALUE=DATE:20270802
+DTEND;VALUE=DATE:20270803
+SUMMARY:General-purpose AI models placed on the market before 2 August 2025
+  must comply
+DESCRIPTION:Providers of general-purpose AI models that were on the market 
+ before 2 August 2025 must take the necessary steps to comply by this date.
+  Articles: 53\, 55\, 111. Source: https://artificialintelligenceact.eu/art
+ icle/111/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:annex-iii@eu-ai-act-tracker
+DTSTAMP:20261111T000000Z
+DTSTART;VALUE=DATE:20271202
+DTEND;VALUE=DATE:20271203
+SUMMARY:High-risk obligations apply to Annex III use cases
+DESCRIPTION:Chapter III Sections 1 to 3 apply to AI systems classified as h
+ igh-risk under Article 6(2) and Annex III\, such as employment\, education
+ \, credit scoring and essential services. Moved by the Omnibus from 2 Augu
+ st 2026. Articles: 6\, 9\, 10\, 11\, 12\, 13\, 14\, 15\, 16\, 17\, 26\, 27
+ . Source: https://artificialintelligenceact.eu/article/113/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:annex-i@eu-ai-act-tracker
+DTSTAMP:20261111T000000Z
+DTSTART;VALUE=DATE:20280802
+DTEND;VALUE=DATE:20280803
+SUMMARY:High-risk obligations apply to AI in Annex I regulated products
+DESCRIPTION:Chapter III Sections 1 to 3 apply to AI systems classified as h
+ igh-risk under Article 6(1) and Annex I\, such as safety components of reg
+ ulated products. Moved by the Omnibus from 2 August 2027. Articles: 6\, 9\
+ , 10\, 11\, 12\, 13\, 14\, 15\, 16\, 17. Source: https://artificialintelli
+ genceact.eu/article/113/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:public-authority-legacy@eu-ai-act-tracker
+DTSTAMP:20261111T000000Z
+DTSTART;VALUE=DATE:20300802
+DTEND;VALUE=DATE:20300803
+SUMMARY:High-risk systems for public authorities already on the market must
+  comply
+DESCRIPTION:High-risk AI systems intended to be used by public authorities 
+ and placed on the market before the high-risk rules apply must be brought 
+ into compliance by this date. Articles: 111. Source: https://artificialint
+ elligenceact.eu/article/111/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:large-scale-it-legacy@eu-ai-act-tracker
+DTSTAMP:20261111T000000Z
+DTSTART;VALUE=DATE:20301231
+DTEND;VALUE=DATE:20310101
+SUMMARY:AI components of large-scale IT systems must comply
+DESCRIPTION:AI systems that are components of the large-scale IT systems li
+ sted in Annex X\, placed on the market or put into service before 2 August
+  2027\, must be brought into compliance by this date. Articles: 111. Sourc
+ e: https://artificialintelligenceact.eu/article/111/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
