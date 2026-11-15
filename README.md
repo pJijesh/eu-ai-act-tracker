@@ -101,7 +101,7 @@ Roles are `provider`, `deployer`, `gpai_provider` and `member_state`.
 - The tests cover the loader and validator (including each way the data can be wrong), the Markdown and calendar output, calendar line folding and escaping, the command line, a check that the committed generated files equal a fresh build, and repository hygiene (no long dashes, working links).
 - The calendar file has been generated and parsed by the tests' own checks, not imported into a specific calendar application.
 - The obligations index and the fine tiers are a summary from the Regulation and were not reviewed by a lawyer.
-- It was run on Python 3.13 here. The CI matrix covers 3.10 to 3.13 and was not run from this environment.
+- It was run on Python 3.13 here. The CI matrix covers 3.10 to 3.13 and passes on GitHub Actions.
 
 ## Roadmap
 
